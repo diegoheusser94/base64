@@ -1,1 +1,25 @@
-<p>home works!</p>
+<div class="options">
+    <button mat-raised-button>Histórico</button>
+</div>
+<mat-card>
+    <mat-card-actions>
+        <button mat-button>Base 64</button>
+        <button mat-icon-button arial-label="Alternar">
+            <mat-icon>swap_horiz</mat-icon>
+        </button>
+        <button mat-button>Texto</button>
+    </mat-card-actions>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+        <mat-form-field>
+            <mat-label>Base 64</mat-label>
+            <textarea matInput placeholder="Ex.: ABABAB..."></textarea>
+        </mat-form-field>
+        <mat-divider [vertical]="true"></mat-divider>
+        <mat-form-field>
+            <mat-label>Texto</mat-label>
+            <textarea matInput placeholder="Ex.: Olá mundo"></textarea>
+        </mat-form-field>
+    </mat-card-content>
+</mat-card>
+<a href="https://github.com/diegoheusser94/base64/issues" target="_blank" rel="noopener">Enviar feedback</a>
